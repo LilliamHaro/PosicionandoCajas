@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+#container {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  position:static; /*se quedad en su misma posicion según el flujo HTML*/
+}
+.purple{
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  position: relative; /*aplicamos position:relative para mover la caja morada donde deseamos*/
+  top: 100px;
+  left:100px;
+}
+.yellow{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position:static; /*se quedad en su misma posicion según el flujo HTML*/
+}
+
+#secondContainer {
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  position: relative; /*aplicamos postion relative con top de 270 para separar el primer cotenedor del segundo*/
+  top: 270px;
+}
+.black{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position:static; /*se quedad en su misma posicion según el flujo HTML*/
+}
+.green{
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: relative; /*aplicamos postion relative para mover la caja verde segun la caja negra*/
+  left:100px;
+}
